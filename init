@@ -6,4 +6,7 @@ cp .zshrc ~/.zshrc
 echo 'Copying .gitconfig'
 cp .gitconfig ~/.gitconfig
 
+echo 'Copying sshconfig'
+cp sshconfig ~/.ssh/config
+
 echo 'Done'

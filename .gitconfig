@@ -7,3 +7,6 @@
   ui = true
 [push]
   default = simple
+[core]
+  editor = nano
+

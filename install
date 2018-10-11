@@ -7,6 +7,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo "Downloading nvm plugin for oh my zsh"
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+
 # <Powerline fonts install>
 
 echo "Installing Powerline-patched fonts for zsh theme usage"

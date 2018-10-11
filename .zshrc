@@ -10,6 +10,7 @@ ZSH_THEME="agnoster"
 # zsh plugins
 plugins=(
   git
+  zsh-nvm
 )
 
 source $ZSH/oh-my-zsh.sh

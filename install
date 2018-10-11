@@ -31,3 +31,4 @@ echo "Installing brew packages"
 brew install git
 brew install postgres
 brew services start postgresql
+brew install yarn --without-node

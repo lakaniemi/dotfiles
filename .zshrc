@@ -18,3 +18,5 @@ source $ZSH/oh-my-zsh.sh
 # Personal aliases
 
 alias o="ls -latr"
+alias kapsi="ssh theduck@kapsi.fi"
+alias irc="ssh -t theduck@kapsi.fi 'screen -dr'"

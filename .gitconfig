@@ -9,4 +9,4 @@
   default = simple
 [core]
   editor = nano
-
+  excludesfile = ~/.gitignore_global

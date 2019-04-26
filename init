@@ -5,6 +5,7 @@ cp .zshrc ~/.zshrc
 
 echo 'Copying .gitconfig'
 cp .gitconfig ~/.gitconfig
+cp .gitconfig-work ~/.gitconfig-work
 
 echo 'Copying .gitignore_global'
 cp .gitignore_global ~/.gitignore_global

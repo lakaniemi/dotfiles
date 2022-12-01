@@ -29,6 +29,6 @@ echo "Installing homebrew"
 echo "Installing brew packages"
 # Updated git version to access gitk
 brew install git
-#brew install postgres
-#brew services start postgresql
-#brew install yarn --without-node
+# brew install postgres
+# brew services start postgresql
+# brew install yarn --without-node
